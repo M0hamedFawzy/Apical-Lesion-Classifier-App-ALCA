@@ -5,9 +5,9 @@ Faculty of Computer & Information Sciences
 Scientific Computing Department 
 ###### This repository contains the code for an Apical Lesion Classification app that uses a deep learning model based on DenseNet121 architecture to detect the existence of apical lesions in periapical X-rays. The app includes a Flask server for model inference and a Flutter front-end for user interaction.
 ## Repository Contents
-- **gp_app/**: Contains the Flutter application code.
-- **densenet121.ipynb**: Jupyter Notebook for training the DenseNet121 model.
-- **server.py**: Flask server script for model inference.
+- `gp_app/`: Contains the Flutter application code.
+- `densenet121.ipynb`: Jupyter Notebook for training the DenseNet121 model.
+- `server.py`: Flask server script for model inference.
 
 ## Features
 
@@ -31,7 +31,7 @@ Scientific Computing Department
 5. [System Implementation](#system-implementation)
 6. [User Manual](#user-manual)
 7. [Conclusion and Future Work](#conclusion-and-future-work)
-8. [References](#references)
+
 
 ## Introduction
 
@@ -60,15 +60,15 @@ The review compares various approaches and highlights the limitations of current
 The system is designed with a three-tier architecture, including data preprocessing, model training, and user interface components.
 
 ### Methods and Procedures
-Detailed description of the methods used, including data preprocessing techniques, model selection, and training procedures.
+A detailed description of the methods used, including data preprocessing techniques, model selection, and training procedures.
 
 ## Data Collection
 
 ### Dataset Sources
-390 radiographs were collected from various sources and filtered and labeled with the help of experienced doctors. An additional dataset from the author of "Automatic Classification System for Periapical Lesions in Cone-Beam Computed Tomography" was also used.
+`390 radiographs` were collected from various sources and filtered and labeled with the help of experienced doctors. An additional dataset from the author of "Automatic Classification System for Periapical Lesions in Cone-Beam Computed Tomography" was also used.
 
 ### Dataset Description
-The final dataset consists of 1390 radiographs (790 with apical lesions and 600 without).
+The final dataset consists of `1390 radiographs` (790 with apical lesions and 600 without).
 
 ## System Implementation
 
